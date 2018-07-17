@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Leanplum-tvOS-SDK'
-  s.version = '2.0.6'
+  s.version = '2.1.0'
   s.summary = 'Mobile Marketing Platform. Integrated. ROI Engine.'
   s.description = 'Leanplum delivers meaningful engagement across channels through Automation, Personalization, A/B Testing, and Analytics.'
   s.homepage = 'https://www.leanplum.com'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/leanplum'
   s.tvos.deployment_target = '9.0'
   s.requires_arc = true
-  s.source = { :http => 'https://github.com/Leanplum/Leanplum-tvOS-SDK/releases/download/2.0.6/LeanplumTV.framework.zip' }
+  s.source = { :http => 'https://github.com/Leanplum/Leanplum-tvOS-SDK/releases/download/2.1.0/LeanplumTV.framework.zip' }
   s.frameworks = 'CFNetwork', 'Foundation', 'Security', 'SystemConfiguration', 'UIKit'
   s.weak_frameworks = 'AdSupport', 'StoreKit'
   s.library = 'sqlite3'
